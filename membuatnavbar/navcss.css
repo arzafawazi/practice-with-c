@@ -1,0 +1,71 @@
+*,html,body{
+ margin: 0;
+ padding: 0;
+ font-family: "Roboto", sans-serif;
+}
+.fcontainer{
+	width: 100%;
+	height: 100vh;
+	background-color:lightslategray;
+	display: flex;
+	justify-content: center; /*untuk mendistribusikan item item didalam
+	container, mengontrol bagaimana item diposisikan secara horizontal
+	(main axis)*/        
+	align-items: center;
+}
+.wrapper{
+	width: 800px;
+	height: 80px;
+	background-color: black;
+    display: flex; /*untuk pengaturan layout, posisi dan tampilan dari
+    suatu konten yang ukurannya belum diketahu atau bernilai dinamis*/
+    font-size: 20px;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand {
+	display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    padding: 15px;
+    text-transform: capitalize;
+}
+.firstname{
+color: white;
+font-weight: 700;
+}
+.lastname{
+color: crimson;
+font-weight: 400;
+padding-left: 4px;
+}
+.navigation{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.navigation > li {
+	list-style-type: none;/*menghilangkan titik bulat yang ada didalam
+	syntax li */
+	padding: 15px;/*untuk mengasih jarak antar text*/
+	}
+.navigation > li > a {
+	color: white;
+	font-size: 15px;
+	text-decoration: none;/*Menghilangkan garis bawah pada link a href*/
+	text-transform: capitalize;/*untuk buat kapital huruf pertama*/
+}
+.active {
+	background-color: crimson;
+	color: white;
+	padding: 15px;
+}
+.nav>li>a:hover{
+	color: crimson;
+	transition: all .3s ease-in-out
+}
+.active:hover{
+	color: white !important;
+}

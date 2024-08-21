@@ -1,0 +1,42 @@
+Langkah langkah membuat kalkulator 
+1.buat script didalam public class yaitu
+Dim op As String
+Dim num1 As Decimal
+Dim num2 As Decimal
+
+lalu pada setiap button button yang berangka diberi script
+
+TextBox1.text = TextBox1.Text & 1 bikin sampe 0 tapi ujungnya aja yang diganti
+
+setelah itu bikin script pada button yang berjenis operator
+
+num1= TextBox1.Text 
+TextBox1.Text = " "
+op = "+" bikin semua pada button operator yang ada
+
+terus pada button delete bikin script
+
+TextBox1.Text = " " kosong dikarenakan tujuannya adalah menghapus
+
+terakhir adalah proses yaitu tanda = (sama dengan)
+
+num2 = TextBox1.Text
+if op = "+" Then 
+    TextBox1.Text = num1 + num2
+
+|selanjutnya menggunakan elseif
+
+elseif op = "-" Then
+Textbox1.Text = num1 - num2
+
+elseif op = "*" Then
+TextBox1.Text = num1 * num2
+
+else if op = "/" Then 
+TextBox1.Text = num1 / num2
+
+
+
+
+
+

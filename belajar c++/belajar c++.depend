@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1632098460 source:d:\coding\belajar c++\main.cpp
+	<iostream>
+
+1632099504 source:d:\coding\untitled1.c
+	<stdio.h>
+	<stdlib.h>
+

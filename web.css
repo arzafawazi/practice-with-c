@@ -1,0 +1,51 @@
+*{/*pengaturan menu*/background-color: black;
+}
+.menu {
+ font-family: tahoma;
+ font-weight: bold;
+ height: 70px;
+ width:100%;
+ background:darkgrey;
+ border-radius: 5px;
+ font-size: 9px;
+}
+label {
+     font-family: sans-serif;
+     font-size: 20pt;
+     color:whitesmoke;
+     margin:12px;
+     padding: 5px;
+     float:left;
+}
+.menu ul {
+   margin: 0px;
+   padding: 8px;
+   background:none;
+   display:inline-block;
+   float: left;
+}
+.menu ul li {
+     list-style: none;
+     display: inline-block;
+}
+.menu ul li a {
+     display: block;
+     text-decoration: none;
+     padding: 20px;
+     color:white;
+}
+.menu ul li a:hover {
+      display: block;
+      color:white;
+      background: maroon;
+      box-shadow: inset 0px 0px  5px blanchedalmond;
+}
+.menu ul li .dropdown {
+      display:none;
+}
+.menu ul li:hover  .dropdown {
+      display: block;
+      background: black;
+      position:absolute;
+      padding: 6px;
+}
